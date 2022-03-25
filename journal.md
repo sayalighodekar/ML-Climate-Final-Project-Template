@@ -6,6 +6,7 @@
 - Week 6 : Read about the TIDAL project at https://x.company/projects/tidal/. Tried contacting the members for a possible collaboration.
 - Week 9 : 
   - Trained a UNet (CNN based) for the water-body satellite images. Currently I trained on a subset of Sentinel-II images consisting ~2800 images with thier corresponding masks. This dataset contains water-body images of non-urban zones which are annotated using traditional methods (NWDI). While the main goal of my project is to train images in urban-settings, this could serve as a good baseline.
+  - Sample images with masks: https://github.com/sayalighodekar/ML-Climate-Final-Project-Template/tree/main/sample_images_with_masks
   - After training the model on 10 epochs, the accuracy was very low (~48%). **TODO**: change of hyperparmeters, preprocessing, adding more images  
   - Analysis of So2SAT dataset, (as this dataset is extremely large, with many channels and bands, I need to pick a subset of the ones that fit well for my problem statement). **Advantage***: Has images with water bodies in urban areas with good resolution and appropriate complexity. 
   -  Ongoing experimentation with **Teranaus** model. https://github.com/ternaus/robot-surgery-segmentation#id1 This model has proven to be more powerful than UNet, hopefully will boost accuracy.
